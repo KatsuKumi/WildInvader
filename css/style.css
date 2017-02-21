@@ -1,0 +1,23 @@
+
+
+@media (min-width: 768px) {
+
+  [class*="col-"]{
+
+    height: 50px;
+
+  }
+
+}
+@media (min-width: 1000px) {
+
+  [class*="col-"]{
+
+    height: 70px;
+
+  }
+
+}
+[class*="col-"], footer{
+background: lightgreen;
+}
